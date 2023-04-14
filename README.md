@@ -1,4 +1,4 @@
-# Frontend Mentor - Clipboard Landing Page Solution
+# Frontend Mentor - Typemaster PreLaunch Landing Page
 
 Esta es una solución al [Typemaster PreLaunch Landing Page](https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X). Los desafíos de Frontend Mentor te ayudan a mejorar tus habilidades de programación mediante la construcción de proyectos realistas.
 
