@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Typemaster Pre-Launch Landing Page</title>
+  </head>
+  <body>
+    <div class="gridAll">
+      <header class="container">
+        <nav class="nav">
+          <div class="nav--logo">
+            <img src="assets/shared/logo.svg" alt="Logo" />
+          </div>
+          <button class="header--button button">Pre-Order Now</button>
+        </nav>
+      </header>
+      <main>
+        <section class="hero container">
+          <article class="hero--article">
+            <div class="hero--content">
+              <h1 class="hero--h1">Typemaster KeyBoard</h1>
+              <p class="hero--p">
+                Improve your productivity and gaming without breaking the bank.
+                Upgrade to a high quality mechanical typing experience.
+              </p>
+              <div class="hero--flex">
+                <button class="hero--button button">Pre-order Now</button>
+                <p class="hero--release">Release on 5/27</p>
+              </div>
+            </div>
+            <div class="hero--picture">
+              <picture class="hero--img">
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="assets/desktop/image-keyboard.jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="assets/tablet/image-keyboard.jpg"
+                />
+                <img src="assets/mobile/image-keyboard.jpg" />
+              </picture>
+            </div>
+          </article>
+        </section>
+        <section class="mechanical container">
+          <article class="mechanical--article">
+            <div class="mechanical--pics">
+              <picture class="mechanical--pics__left">
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="assets/desktop/image-phone-and-keyboard.jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="assets/tablet/image-phone-and-keyboard.jpg"
+                />
+                <img src="assets/mobile/image-phone-and-keyboard.jpg" />
+              </picture>
+              <picture class="mechanical--pics__right">
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="assets/desktop/image-glass-and-keyboard.jpg"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="assets/tablet/image-glass-and-keyboard.jpg"
+                />
+                <img src="assets/mobile/image-glass-and-keyboard.jpg" />
+              </picture>
+            </div>
+            <div class="mechanical--row">
+              <h2 class="mechanical--h2">Mechanical Wireless Keyboard</h2>
+              <p class="mechanical--p">
+                The Typemaster keyboard boasts top-notch build and practical
+                design. It offers a wide variety of switches and keycaps, along
+                with reliable wireless connectivity.
+              </p>
+            </div>
+          </article>
+        </section>
+        <section class="info container">
+          <article class="info--article">
+            <div class="info--item">
+              <div class="info--icon">
+                <img src="assets/shared/icon-compatible.svg" alt="Icon TV" />
+              </div>
+              <h3 class="item--h3">Highly Compatible</h3>
+              <p class="item--p">
+                Easy to use and works well with all major computer brands,
+                gaming consoles and mobile devices. Plug & play, no installation
+                or driver needed.
+              </p>
+            </div>
+            <div class="info--item">
+              <div class="info--icon">
+                <img
+                  src="assets/shared/icon-bluetooth.svg"
+                  alt="Icon Bluetooth"
+                />
+              </div>
+              <h3 class="item--h3">Wireless with Bluetooth</h3>
+              <p class="item--p">
+                Powerful 2.4G RF technology allows you to connect the cordless
+                keyboard from up to 30ft away. Simply plug the unifying receiver
+                into your computer.
+              </p>
+            </div>
+            <div class="info--item">
+              <div class="info--icon">
+                <img src="assets/shared/icon-battery.svg" alt="Icon Battery" />
+              </div>
+              <h3 class="item--h3">High Capacity Battery</h3>
+              <p class="item--p">
+                Equipped with a long-lasting built-in battery, you’ll never have
+                to spend a dime on replaceable ones.  Enjoy 40 hours of usage
+                time between charges.
+              </p>
+            </div>
+            <div class="info--item">
+              <div class="info--icon">
+                <img src="assets/shared/icon-light.svg" alt="Icon RGB Light" />
+              </div>
+              <h3 class="item--h3">RGB Backlit Modes</h3>
+              <p class="item--p">
+                Choose from 4 backlight brightness levels and adjustable
+                breathing speed. Each key glows intensely in the dark and helps
+                you type in low light conditions.
+              </p>
+            </div>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <p class="footer--p">
+          <span>Typemaster 2021</span> | All Rights Reserved
+        </p>
+
+        <div class="footer-autor">
+          <p class="autor--p">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io/challenges/typemaster-prelaunch-landing-page-J6-Yj5J-X"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/jeremiasingla/">Jeremias Ingla</a>.
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
