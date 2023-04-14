@@ -166,7 +166,12 @@ h3 {
     border-radius: 20px 0 0 20px;
   }
   .hero--flex {
-    width: 90%;
+    width: auto;
+  }
+  @media screen and (min-width: 375px) {
+    .hero--flex {
+      width: auto;
+    }
   }
   /* MECHANICAL SECTION */
   .mechanical--pics {
